@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/file/d/1OYvq4gaDVFCWm_ZgVrLaH3Hn_eSuIUmu/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['NORMAL', 'PNEUMONIA']
+classes = ['NORMAL','PNEUMONIA']
 path = Path(__file__).parent
 
 app = Starlette()
